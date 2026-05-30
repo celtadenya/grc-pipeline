@@ -1,0 +1,16 @@
+name: GRC Automated Compliance Audit
+
+on: [push]
+
+jobs:
+  compliance_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Checkov GRC Scanner
+        uses: bridgecrewio/checkov-action@master
+        with:
+          framework: terraform
+          output_format: cli
