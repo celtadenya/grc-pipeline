@@ -21,7 +21,7 @@ controls and UK GDPR obligations.
 
 Checkov automatically catches violations on every push and fails the build.
 See the Actions tab for live scan results.
-<img width="971" height="659" alt="Screenshot 2026-05-30 at 04 12 35" src="https://github.com/user-attachments/assets/8a45a382-3484-4f76-be4f-495da5632256" />
+![Pipeline Output](https://github.com/user-attachments/assets/25ff2ab7-ec47-4023-9ac2-cca3fb66fb7c)
 
 ## Documents
 
